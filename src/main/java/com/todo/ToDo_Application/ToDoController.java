@@ -20,7 +20,7 @@ public class ToDoController {
 		else {
 			res = "login.jsp";
 		}
-		return "login.jsp";
+		return res;
 	}
 
 }

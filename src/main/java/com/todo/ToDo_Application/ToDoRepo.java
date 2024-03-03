@@ -1,5 +1,8 @@
 package com.todo.ToDo_Application;
 
-public class ToDoRepo {
+import org.springframework.data.repository.CrudRepository;
+import com.todo.ToDo_Application.ToDo;
+
+public interface ToDoRepo extends CrudRepository<ToDo, Integer> {
 
 }
